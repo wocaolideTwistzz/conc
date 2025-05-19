@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/conc/pool"
+	"github.com/wocaolideTwistzz/conc/pool"
 
 	"github.com/stretchr/testify/require"
 )

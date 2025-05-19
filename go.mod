@@ -1,4 +1,4 @@
-module github.com/sourcegraph/conc
+module github.com/wocaolideTwistzz/conc
 
 go 1.20
 

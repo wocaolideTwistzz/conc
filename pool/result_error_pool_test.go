@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/conc/pool"
+	"github.com/wocaolideTwistzz/conc/pool"
 
 	"github.com/stretchr/testify/require"
 )
@@ -132,7 +132,7 @@ func TestResultErrorPool(t *testing.T) {
 	})
 
 	t.Run("reuse", func(t *testing.T) {
-		// Test for https://github.com/sourcegraph/conc/issues/128
+		// Test for https://github.com/wocaolideTwistzz/conc/issues/128
 		p := pool.NewWithResults[int]().WithErrors()
 
 		p.Go(func() (int, error) { return 1, err1 })

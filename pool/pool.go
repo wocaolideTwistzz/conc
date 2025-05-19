@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/sourcegraph/conc"
+	"github.com/wocaolideTwistzz/conc"
 )
 
 // New creates a new Pool.

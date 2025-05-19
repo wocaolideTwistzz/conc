@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/sourcegraph/conc/panics"
+	"github.com/wocaolideTwistzz/conc/panics"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -50,11 +50,11 @@ func ExampleCatcher_callers() {
 		}
 	}
 	// Output:
-	// github.com/sourcegraph/conc/panics.(*Catcher).tryRecover
+	// github.com/wocaolideTwistzz/conc/panics.(*Catcher).tryRecover
 	// runtime.gopanic
-	// github.com/sourcegraph/conc/panics_test.ExampleCatcher_callers.func1
-	// github.com/sourcegraph/conc/panics.(*Catcher).Try
-	// github.com/sourcegraph/conc/panics_test.ExampleCatcher_callers
+	// github.com/wocaolideTwistzz/conc/panics_test.ExampleCatcher_callers.func1
+	// github.com/wocaolideTwistzz/conc/panics.(*Catcher).Try
+	// github.com/wocaolideTwistzz/conc/panics_test.ExampleCatcher_callers
 	// testing.runExample
 	// testing.runExamples
 	// testing.(*M).Run

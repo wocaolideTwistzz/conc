@@ -3,7 +3,7 @@ package conc
 import (
 	"sync"
 
-	"github.com/sourcegraph/conc/panics"
+	"github.com/wocaolideTwistzz/conc/panics"
 )
 
 // NewWaitGroup creates a new WaitGroup.

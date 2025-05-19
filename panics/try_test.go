@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/sourcegraph/conc/panics"
+	"github.com/wocaolideTwistzz/conc/panics"
 
 	"github.com/stretchr/testify/require"
 )
